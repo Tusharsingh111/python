@@ -1,10 +1,10 @@
-num1=int(input("enter first value:"))
-num2=int(input("enter second value:"))
-if num1>num2:
-   print("num1 is greater than num2")
-elif num1<num2:
-     print("num2 is greater than num1")
-elif num1==num2:
-     print("num1 is equal to num2")
-else:
-     print("Thank You")
+import keyword
+keys = ["class", "global", "finally", "not", "elif", "non", "break", "lambda", "def", "del"]
+
+for i in range(len(keys)):
+    if keyword.iskeyword(keys[i]):
+        print(keys[i]+":True")
+    else:
+        print(keys[i]+":False")
+        
+
