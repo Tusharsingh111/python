@@ -1,0 +1,15 @@
+#string slicing
+my_str="there is no progress in your comfort zone"
+print(len(my_str))
+print(my_str[1:9])
+print(my_str[0:41])
+print(my_str[0:65])
+print(my_str[0:9])
+print(my_str[0:9:2])
+print(my_str[:5])
+print(my_str[::])
+print(my_str[::2])
+print(my_str[-4:-3])
+print(my_str[40:41])
+print(my_str[::-4])
+print(my_str[:-5])
