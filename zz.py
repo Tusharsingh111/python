@@ -1,0 +1,6 @@
+a=int(input("a: "))
+b=int(input("b: "))
+d=(a-b)**3/(a**3-b**3)
+c=(a+b)**2/(a**2+b**2)
+print(c)
+print(d)
